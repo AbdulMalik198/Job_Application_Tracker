@@ -12,6 +12,7 @@ A modern and responsive front‑end application for organizing and tracking job 
 - Simple, intuitive, user‑friendly interface  
 
 ## Screenshot
+![Job Application Tracker Screenshot](https://github.com/AbdulMalik198/Job_Application_Tracker/blob/03c444c3297b9fa26d7e34d7f3a5863c0e63e801/screenShot_folder/Job_Application_Tracker.png)
 
 ## Live Demo
 
