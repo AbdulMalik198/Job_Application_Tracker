@@ -1,0 +1,20 @@
+#  Job Application Tracker
+
+A modern and responsive front‑end application for organizing and tracking job applications. This project demonstrates practical CRUD functionality, LocalStorage persistence, and a clean UI built with HTML, CSS, and JavaScript. Ideal for portfolios and junior developer showcases.
+
+##  Features
+- Add, edit, and delete job applications  
+- Track status: Applied, Interviewing, Offer, Rejected  
+- Filter applications by status  
+- Sort by company name or date added  
+- Fully responsive layout  
+- Data saved using LocalStorage  
+- Simple, intuitive, user‑friendly interface  
+
+##  Tech Stack
+- HTML5  
+- CSS3  
+- JavaScript (ES6+)  
+- LocalStorage API  
+
+##  Project Structure
