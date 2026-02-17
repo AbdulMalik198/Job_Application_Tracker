@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1>Job Application Tracker</h1>
+    </nav>
+
+    <main class="container">
+
+        <!-- Add Job Form -->
+        <section class="form-section">
+            <h2>Add New Application</h2>
+            <form id="jobForm">
+                <div class="form-group">
+                    <label>Company Name</label>
+                    <input type="text" id="company" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Position</label>
+                    <input type="text" id="position" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Status</label>
+                    <select id="status">
+                        <option value="Applied">Applied</option>
+                        <option value="Interviewing">Interviewing</option>
+                        <option value="Offer">Offer</option>
+                        <option value="Rejected">Rejected</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">Add Application</button>
+            </form>
+        </section>
+
+        <!-- Job List -->
+        <section class="list-section">
+            <h2>Applications</h2>
+
+            <div class="filters">
+                <select id="filterStatus">
+                    <option value="All">All</option>
+                    <option value="Applied">Applied</option>
+                    <option value="Interviewing">Interviewing</option>
+                    <option value="Offer">Offer</option>
+                    <option value="Rejected">Rejected</option>
+                </select>
+
+                <select id="sortBy">
+                    <option value="date">Sort by Date</option>
+                    <option value="company">Sort by Company</option>
+                </select>
+            </div>
+
+            <div id="jobList" class="job-list"></div>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
