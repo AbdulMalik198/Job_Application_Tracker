@@ -23,4 +23,3 @@ https://jopapplicationtracker.netlify.app
 - JavaScript (ES6+)  
 - LocalStorage API  
 
-##  Project Structure
