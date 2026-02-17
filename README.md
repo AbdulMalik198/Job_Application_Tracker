@@ -11,6 +11,10 @@ A modern and responsive front‑end application for organizing and tracking job 
 - Data saved using LocalStorage  
 - Simple, intuitive, user‑friendly interface  
 
+## Screenshot
+
+## Live Demo
+
 ##  Tech Stack
 - HTML5  
 - CSS3  
